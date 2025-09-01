@@ -86,6 +86,13 @@ Create (or open) a backlog doc and add a few starter items with evidence referen
 
 Proceed to implement just the FIRST smallest slice from `/plan-slice` output.
 
+Note: If `/quality-pass` returns a BLOCKED status early (common before artifacts exist), provide:
+1. Acceptance criteria with measurable targets (e.g. "Receptionist books appointment ≤30s")
+2. UI template paths or rendered snapshots for accessibility checks
+3. Performance budgets (interaction latency, page load targets)
+4. Canonical workflow steps (doctor / receptionist)
+Then re-run `/quality-pass` to obtain a SUCCESS status and generated quality artifacts.
+
 ---
 
 ## 5. Core Daily Loop (Minimal)
